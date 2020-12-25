@@ -10,7 +10,6 @@ Posts
     <h1>Количество статей:  {{ posts|length }}</h1>
     <h1>Все статьи</h1>
     <h3>{{ time_now|date:'M d Y' }}</h3>
-    <h3>{{ value1|default_if_none:'ничего' }}</h3>
     <hr>
     {%  if posts %}
         <table>
